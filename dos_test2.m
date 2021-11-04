@@ -1,0 +1,4 @@
+% Str = sprintf('java -jar D:\\Download\\MATLAB\\phylonet_v2_4\\phylonet_v2_4\\phylonet_v2_4.jar rf -m D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Hepatitis_46.dnd -e D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Repeattree.dnd -o D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Output_Pdf_%d.txt',k);
+% [status, result] = dos(Str);
+Str = sprintf('java -jar D:\\Download\\MATLAB\\phylonet_v2_4\\phylonet_v2_4\\phylonet_v2_4.jar rf -m D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Hepatitis_47.dnd -e D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Repeattree.dnd -o D:\\Download\\MATLAB\\RepeatLengthPdf\\Data\\Output_Interval_%d.txt',k);
+[status, result] = dos(Str);
